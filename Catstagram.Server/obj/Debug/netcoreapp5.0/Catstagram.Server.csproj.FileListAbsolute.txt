@@ -50,4 +50,3 @@ C:\Study\Catstagram\Catstagram.Server\bin\Debug\netcoreapp5.0\Microsoft.AspNetCo
 C:\Study\Catstagram\Catstagram.Server\obj\Debug\netcoreapp5.0\Catstagram.Server.csproj.CoreCompileInputs.cache
 C:\Study\Catstagram\Catstagram.Server\obj\Debug\netcoreapp5.0\Catstagram.Server.MvcApplicationPartsAssemblyInfo.cache
 C:\Study\Catstagram\Catstagram.Server\bin\Debug\netcoreapp5.0\Properties\serviceDependencies.CatstagramServer1 - Web Deploy.json
-C:\Study\Catstagram\Catstagram.Server\obj\Debug\netcoreapp5.0\Catstagram.Server.csprojAssemblyReference.cache
