@@ -55,3 +55,4 @@ C:\Study\Catstagram\Catstagram.Server\obj\Debug\netcoreapp5.0\staticwebassets\Ca
 C:\Study\Catstagram\Catstagram.Server\obj\Debug\netcoreapp5.0\Catstagram.Server.dll
 C:\Study\Catstagram\Catstagram.Server\obj\Debug\netcoreapp5.0\Catstagram.Server.pdb
 C:\Study\Catstagram\Catstagram.Server\obj\Debug\netcoreapp5.0\Catstagram.Server.genruntimeconfig.cache
+C:\Study\Catstagram\Catstagram.Server\obj\Debug\netcoreapp5.0\Catstagram.Server.csprojAssemblyReference.cache
