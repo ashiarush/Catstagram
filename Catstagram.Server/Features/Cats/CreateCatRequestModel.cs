@@ -1,4 +1,4 @@
-﻿namespace Catstagram.Server.Models.Cats
+﻿namespace Catstagram.Server.Features.Cats
 {
     using System.ComponentModel.DataAnnotations;
     using static Data.Validation.Cat;
