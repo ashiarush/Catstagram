@@ -1,6 +1,7 @@
 ﻿namespace Catstagram.Server.Features.Identity
 {
     using Catstagram.Server.Data.Models;
+    using Catstagram.Server.Features.Identity.Models;
     using Microsoft.AspNetCore.Identity;
     using Microsoft.AspNetCore.Mvc;
     using Microsoft.AspNetCore.Routing;

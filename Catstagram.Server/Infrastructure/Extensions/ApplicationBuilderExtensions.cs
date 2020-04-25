@@ -1,14 +1,9 @@
-﻿using Catstagram.Server.Data;
-using Microsoft.AspNetCore.Builder;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.DependencyInjection;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-
-namespace Catstagram.Server.Infrastructure
+﻿namespace Catstagram.Server.Infrastructure.Extensions
 {
+    using Catstagram.Server.Data;
+    using Microsoft.AspNetCore.Builder;
+    using Microsoft.EntityFrameworkCore;
+    using Microsoft.Extensions.DependencyInjection;
     public static class ApplicationBuilderExtensions
     {
         public static IApplicationBuilder UseSwaggerUI(this IApplicationBuilder app)

@@ -1,4 +1,4 @@
-﻿namespace Catstagram.Server.Infrastructure
+﻿namespace Catstagram.Server.Infrastructure.Extensions
 {
     using System.Linq;
     using System.Security.Claims;
