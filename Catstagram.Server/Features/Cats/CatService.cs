@@ -2,8 +2,10 @@
 {
     using Data;
     using Data.Models;
+    using Microsoft.EntityFrameworkCore;
+    using System.Collections.Generic;
+    using System.Linq;
     using System.Threading.Tasks;
-
     public class CatService : ICatService
     {
         private readonly CatstagramDbContext data;
@@ -26,5 +28,17 @@
 
             return cat.Id;
         }
+
+        public async Task<IEnumerable<CatListingResponseModel>> ByUser(string userId)
+            => await this.data
+            .Cats
+            .Where(c => c.UserId == userId)
+            .Select(c => new CatListingResponseModel
+            {
+                Id = c.Id,
+                ImageUrl = c.ImageUrl
+            })
+            .ToListAsync();
+
     }
 }
